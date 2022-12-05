@@ -178,6 +178,20 @@ h2 strong.main_title{
     background-size: cover;
     transition: all 0.2s;
 }
+/* 호버 이미지 미리 불러오기 */
+.other_contents .flex .box50 .box_bg01{
+    background-image: url(./img/other_bg01_h.png);
+}
+.other_contents .flex .box50 .box_bg02{
+    background-image: url(./img/other_bg02_h.png);
+}
+.other_contents .flex .box50 .box_bg03{
+    background-image: url(./img/other_bg03_h.png);
+}
+.other_contents .flex .box50 .box_bg04{
+    background-image: url(./img/other_bg04_h.png);
+}
+/* 기본 이미지 불러오기 */
 .other_contents .flex .box50 .box_bg01{
     background-image: url(./img/other_bg01.png);
 }
@@ -190,6 +204,7 @@ h2 strong.main_title{
 .other_contents .flex .box50 .box_bg04{
     background-image: url(./img/other_bg04.png);
 }
+/* 호버시 이미지 */
 .other_contents .flex .box50 .box_bg01:hover{
     background-image: url(./img/other_bg01_h.png);
 }
